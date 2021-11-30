@@ -20,10 +20,10 @@ public class CustomerController {
 
 	Logger logger = LoggerFactory.getLogger(this.getClass());
 	
-	@Autowired
+	@Autowired(required=false)
 	private CustomerService custService;
 	
-	@Autowired
+	@Autowired(required=false)
 	private CustomerRepository custRepository;
 	
 	@PostMapping(value = "/customers", consumes =  MediaType.APPLICATION_JSON_VALUE)

@@ -18,10 +18,10 @@ import com.rst.mywallet.service.AccountService;
 @Service
 public class AccountServiceImpl implements AccountService {
 
-	@Autowired(required=true)
+	@Autowired(required=false)
 	private AccountRepository accountRepository;
 
-	@Autowired
+	@Autowired(required=false)
 	private TransactionRepository transactionRepository;
 
 	@Override
