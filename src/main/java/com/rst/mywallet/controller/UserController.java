@@ -14,7 +14,7 @@ import com.rst.mywallet.repository.UserRepository;
 
 
 @RestController
-@RequestMapping("/api/account")
+@RequestMapping("/api")
 public class UserController {
 
 	@Autowired(required = false)

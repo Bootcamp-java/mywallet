@@ -22,7 +22,7 @@ import com.rst.mywallet.model.TransferBalanceRequest;
 import com.rst.mywallet.service.AccountService;
 
 @RestController
-@RequestMapping("/api/account")
+@RequestMapping("/api")
 @CrossOrigin
 public class AccountController {
 	
